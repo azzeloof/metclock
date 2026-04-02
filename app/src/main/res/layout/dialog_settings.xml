@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/space_card"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="16dp"/>
+
+    <Switch
+        android:id="@+id/switchAlerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milestone Haptic Alerts"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"
+        android:theme="@style/Theme.AppCompat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibrates 5 minutes prior to, and exactly at, all upcoming burns and events."
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

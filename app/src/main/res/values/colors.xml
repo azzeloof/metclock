@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="space_bg">#0B0D14</color>
+    <color name="space_card">#1A1C23</color>
+    <color name="space_card_selected">#2A2D39</color>
+
+    <color name="space_accent">#FF5722</color> <color name="timeline_line">#333333</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8A8D9F</color>
+</resources>
