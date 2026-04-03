@@ -3,9 +3,9 @@ name: Android CI Build
 # This workflow triggers every time you push code to the main branch
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
