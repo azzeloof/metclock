@@ -52,6 +52,7 @@ object MissionRepository {
                 MissionMilestone("Splashdown", calcTime(artemisLiftoff, 9, 1, 46))
             )
         ),
+        /*
         Mission(
             id = "europa_clipper",
             name = "Europa Clipper",
@@ -63,6 +64,7 @@ object MissionRepository {
                 MissionMilestone("Jupiter Arrival", Instant.parse("2030-04-11T00:00:00Z"))
             )
         )
+         */
     )
 
     fun getMissionById(id: String): Mission? {

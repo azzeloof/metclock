@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">METclock</string>
+    <string name="start_tracking">START TRACKING</string>
+    <string name="flight_manifest">FLIGHT MANIFEST</string>
+    <string name="active_missions">ACTIVE MISSIONS</string>
+    <string name="t_00_00_00">T- 00:00:00</string>
+    <string name="awaiting_mission_selection">Awaiting Mission Selection...</string>
+    <string name="_00d_00h_00m_00s">00d 00h 00m 00s</string>
+    <string name="mission_elapsed_time">MISSION ELAPSED TIME</string>
+    <string name="vibrates_5_minutes_prior_to_and_exactly_at_all_upcoming_burns_and_events">Vibrates 5 minutes prior to, and exactly at, all upcoming burns and events.</string>
+    <string name="settings">SETTINGS</string>
+    <string name="bullet_point_style_dot">Bullet-point style dot</string>
+    <string name="arrow_pointing_at_current_step">Arrow pointing at current step</string>
+    <string name="mission_patch_graphic">Mission patch graphic</string>
+    <string name="milestone_haptic_alerts">Milestone Haptic Alerts</string>
 </resources>
