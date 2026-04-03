@@ -34,7 +34,7 @@ jobs:
           tag_name: latest-build
           name: Latest Development Build
           body: "This is an auto-generated build of the latest code on the main branch."
-          files: app/build/outputs/apk/debug/app-debug.apk
+          files: app/build/outputs/apk/debug/metclock-debug-latest.apk
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
