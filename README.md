@@ -1,4 +1,8 @@
-# Spaceflight Mission Tracker
+[![Android CI Build](https://github.com/azzeloof/metclock/actions/workflows/android-build.yaml/badge.svg)](https://github.com/azzeloof/metclock/actions/workflows/android-build.yaml)
+
+[![Download Latest APK](https://img.shields.io/badge/Download-Latest_APK-FF5722?style=for-the-badge&logo=android)](https://github.com/azzeloof/metclock/releases/tag/latest-build)
+
+# METclock
 
 A native Android application designed to track active and upcoming spaceflight missions. The app provides a live Mission Elapsed Time (MET) clock and countdowns to specific orbital milestones via an in-app dashboard and a persistent lockscreen notification.
 
@@ -7,8 +11,7 @@ A native Android application designed to track active and upcoming spaceflight m
 * **Persistent Lockscreen Tracking:** Utilizes an Android Foreground Service to maintain a live-ticking MET clock and milestone countdown on the lockscreen.
 * **Live Telemetry Dashboard:** An in-app UI displaying a precise, monospace ticking clock independent of the background service.
 * **Dynamic Mission Manifests:** A scrollable vertical timeline generated from mission data, complete with a visual indicator of the current temporal position.
-* **Haptic Milestone Alerts:** Configurable vibration alerts that trigger at T-5 minutes and exactly at T-0 for any upcoming orbital burn or event.
-* **Dark Mode Aesthetics:** A custom XML-based design system tailored for a space dashboard environment.
+* **Haptic Milestone Alerts:** Configurable vibration alerts that trigger at T-5 minutes and at T-0 for any upcoming orbital burn or event.
 
 ## Architecture & Tech Stack
 
